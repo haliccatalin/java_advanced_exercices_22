@@ -1,13 +1,13 @@
 package com.sda.ex5;
 
 public interface HashSet<E> {
-    void add(E item);
+    public void add(E item);
 
-    void remove(E item);
+    public void remove(E item);
 
-    int size(E item);
+    void clear();
+    int size ();
+    boolean contains (E item);
 
-    boolean contains(E item);
-
-    void clear(E item);
 }
+
